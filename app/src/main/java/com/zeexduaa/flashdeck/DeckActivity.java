@@ -74,7 +74,7 @@ public class DeckActivity extends AppCompatActivity {
         study = findViewById(R.id.study);
         empty = findViewById(R.id.empty);
 
-        study.setVisibility(View.GONE); // the study screen comes next
+        study.setOnClickListener(v -> startActivity(StudyActivity.intent(this, deckId)));
 
         findViewById(R.id.add_card).setOnClickListener(v ->
                 startActivity(CardEditActivity.addIntent(this, deckId)));
@@ -108,6 +108,7 @@ public class DeckActivity extends AppCompatActivity {
         }
         adapter.submit(cards);
         empty.setVisibility(cards.isEmpty() ? View.VISIBLE : View.GONE);
+        study.setEnabled(due > 0);
         summary.setText(due == 0
                 ? getString(R.string.nothing_due)
                 : getResources().getQuantityString(R.plurals.cards_due, due, due));

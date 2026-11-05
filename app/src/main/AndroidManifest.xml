@@ -28,6 +28,11 @@
             android:parentActivityName=".DeckActivity"
             android:windowSoftInputMode="adjustResize|stateVisible" />
 
+        <activity
+            android:name=".StudyActivity"
+            android:exported="false"
+            android:parentActivityName=".DeckActivity" />
+
     </application>
 
 </manifest>
