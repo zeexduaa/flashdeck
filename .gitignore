@@ -1,0 +1,23 @@
+# Gradle and build output
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing and secrets (never commit these)
+*.jks
+*.keystore
+keystore.properties
+.env
+google-services.json
