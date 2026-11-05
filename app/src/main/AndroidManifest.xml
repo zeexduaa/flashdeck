@@ -17,6 +17,17 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".DeckActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".CardEditActivity"
+            android:exported="false"
+            android:parentActivityName=".DeckActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+
     </application>
 
 </manifest>

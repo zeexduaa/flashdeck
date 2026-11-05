@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                                 s.getTotalCards(), s.getTotalCards(), s.getDueCards());
                     }
                 },
-                null,
+                s -> startActivity(DeckActivity.intent(this, s.getDeck().getId())),
                 this::showDeckMenu);
 
         RecyclerView list = findViewById(R.id.deck_list);

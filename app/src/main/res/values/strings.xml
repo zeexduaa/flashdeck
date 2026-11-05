@@ -14,6 +14,30 @@
         <item quantity="other">%1$d cards · %2$d due</item>
     </plurals>
 
+    <!-- Deck screen -->
+    <string name="study_now">Study now</string>
+    <string name="new_card">New card</string>
+    <string name="no_cards">This deck is empty.\nTap \"New card\" to add one.</string>
+    <string name="nothing_due">Nothing due right now</string>
+    <plurals name="cards_due">
+        <item quantity="one">%1$d card due</item>
+        <item quantity="other">%1$d cards due</item>
+    </plurals>
+    <string name="card_new">New</string>
+    <string name="card_due_now">Due now</string>
+    <string name="card_due_in">Due in %1$s</string>
+    <string name="delete_card">Delete card</string>
+    <string name="delete_card_confirm">Delete this card? Its review history goes with it.</string>
+
+    <!-- Card editor -->
+    <string name="add_card">Add card</string>
+    <string name="edit_card">Edit card</string>
+    <string name="front_hint">Front (question)</string>
+    <string name="back_hint">Back (answer)</string>
+    <string name="save_and_add_another">Save &amp; add another</string>
+    <string name="card_side_required">This side can\'t be empty</string>
+    <string name="card_saved">Card saved</string>
+
     <!-- Shared -->
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
