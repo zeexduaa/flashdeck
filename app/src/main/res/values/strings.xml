@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Flashdeck</string>
+
+    <!-- Deck list -->
+    <string name="new_deck">New deck</string>
+    <string name="no_decks">No decks yet.\nTap \"New deck\" to make your first one.</string>
+    <string name="deck_name_hint">Deck name</string>
+    <string name="rename_deck">Rename deck</string>
+    <string name="delete_deck">Delete deck</string>
+    <string name="delete_deck_confirm">Delete \"%1$s\" and all %2$d of its cards? This can\'t be undone.</string>
+    <plurals name="deck_counts">
+        <item quantity="one">%1$d card · %2$d due</item>
+        <item quantity="other">%1$d cards · %2$d due</item>
+    </plurals>
+
+    <!-- Shared -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="name_required">Please enter a name</string>
 </resources>
